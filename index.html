@@ -4,7 +4,7 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta name="description" content="marriage">
-		<meta name="author" content="Katy Huff">
+		<meta name="author" content="Adam Becker">
 		<title>Becker &amp; Seng Wedding</title>
 		<link rel="shortcut icon" href="images/favicon.png">
 
@@ -547,6 +547,13 @@ He is writing a book about the sordid untold history of quantum physics, and spe
 
                                                 // var contentString = "Some content";
                                                 google.maps.event.addListener(marker, "mouseover", function() {
+                                                // marker.addListener("hover", function() {
+                                                        infowindow.setContent("<span class='maplabel'>" + this.name + "</span>");
+                                                        // infowindow.open(map, marker);
+                                                        infowindow.open(map, this);
+                                                });
+
+                                                google.maps.event.addListener(marker, "click", function() {
                                                 // marker.addListener("hover", function() {
                                                         infowindow.setContent("<span class='maplabel'>" + this.name + "</span>");
                                                         // infowindow.open(map, marker);

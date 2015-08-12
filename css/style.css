@@ -34,7 +34,7 @@ h3,h4,h5,h6 {
 }
 
 h6 {
-	color: #ff823e;
+	color: #5E0C12;
 }
 
 .x {
@@ -190,14 +190,14 @@ section {
 
 .heading span {
 	border: 0;
-	border-top: 1px solid #ff823e;
+	border-top: 1px solid #5E0C12;
 	display: inline-block;
 	margin: 5px 10px;
 	width: 40px;
 }
 
 .heading i {
-	color: #ff823e;
+	color: #5E0C12;
 }
 
 /* MAIN BANNER
@@ -213,7 +213,7 @@ section {
 }
 
 .hover-effect span {
-	background: #ff823e;
+	background: #5E0C12;
 	color: #fff;
 	display: block;
 	height: 0;
@@ -243,11 +243,11 @@ section {
  display:block;
 	display: inline-block;
 	position: relative;
- background:transparent url('../images/strom.png') center top no-repeat;
+ /*background:transparent url('../images/strom.png') center top no-repeat;*/
 }
 
 .katyhuff:hover {
-   background-image: url('../images/stromicon.jpg');
+   /*background-image: url('../images/stromicon.jpg');*/
 }
 
 .amgallow {
@@ -256,11 +256,11 @@ section {
  display:block;
 	display: inline-block;
 	position: relative;
- background:transparent url('../images/katy.png') center top no-repeat;
+ /*background:transparent url('../images/katy.png') center top no-repeat;*/
 }
 
 .amgallow:hover {
-   background-image: url('../images/katyicon.png');
+   /*background-image: url('../images/katyicon.png');*/
 }
 
 .hover-effect i {
@@ -302,8 +302,8 @@ section {
 }
 
 .social-icons a:hover {
-	border: 1px solid #ff823e;
-	color: #ff823e;
+	border: 1px solid #5E0C12;
+	color: #5E0C12;
 }
 
 /* PEOPLE & ACCOMMODATION
@@ -361,7 +361,7 @@ section {
 }
 
 .post-header span {
-	color: #ff823e;
+	color: #5E0C12;
 }
 
 .post-meta {
@@ -431,7 +431,7 @@ section {
 }
 
 #facts .img-circle {
-	background: #ff823e;
+	background: #5E0C12;
 	height: 213px;
 	padding-top: 60px;
 }
@@ -470,28 +470,28 @@ section {
 =========================================================================================*/
 
 #rsvp {
-	background: #6ec06e;
+	background: #B0FFF1;
 	padding: 50px;
-	color: #fff;
+	color: #000;
 }
 
 #rsvp .heading {
 	padding-bottom: 20px;
-	color: #fff;
+	color: #000;
 }
 
 #rsvp .heading i {
-	color: #fff;
+	color: #000;
 }
 
 #rsvp .heading span {
-	border-color: #fff;
-	color: #fff;
+	border-color: #000;
+	color: #000;
 }
 
 #rsvp .btn {
-	background: #ffde25;
-	color: #222;
+	background: #5E0C12;
+	color: #fff;
 	margin-top: 20px;
 	padding-bottom: 20px;
 }
